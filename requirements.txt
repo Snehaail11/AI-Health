@@ -1,24 +1,24 @@
-streamlit==1.29.0
-easyocr==1.7.1
-pdf2image==1.16.3
-Pillow==10.1.0
-numpy==1.24.3
-opencv-python==4.8.1.78
-torch==2.1.0
-torchvision==0.16.0
-transformers==4.36.0
-sentence-transformers==2.2.2
-spacy==3.7.2
-google-generativeai==0.3.2
+# Core Framework
+streamlit==1.28.1
+
+# Data Processing
 pandas==2.0.3
-plotly==5.18.0
-python-docx==1.1.0
-openpyxl==3.1.2
-python-pptx==0.6.23
-pypdf==3.18.0
-pydicom==2.4.3
-beautifulsoup4==4.12.2
-lxml==4.9.3
-python-magic==0.4.27
-streamlit-option-menu==0.3.6
-streamlit-extras==0.2.0
+numpy==1.23.5
+
+# Visualization
+plotly==5.17.0
+
+# PDF Processing (no torch/easyocr)
+PyPDF2==3.0.1
+pdf2image==1.16.3
+pdfplumber==0.10.3
+
+# Image Processing
+Pillow==10.0.0
+
+# OCR (without PyTorch)
+pytesseract==0.3.10
+
+# Utilities
+python-dotenv==1.0.0
+opencv-python==4.8.1.78
