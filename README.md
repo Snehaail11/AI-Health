@@ -42,8 +42,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/health-report-analyzer.git
-cd health-report-analyzer
+git clone https://github.com/Snehaail11/AI-Health.git  
+cd AI-Health
 
 # Create virtual environment
 python -m venv venv
