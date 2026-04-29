@@ -1,0 +1,42 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+uploads/
+temp/
+*.log
+*.tmp
+*.bak
+
+# Secrets
+.env
+secrets.toml
+*.key
+*.pem
+
+# OCR cache
+~/.cache/easyocr/
+~/.tesseract/
+
+# OS files
+Thumbs.db
+.DS_Store
